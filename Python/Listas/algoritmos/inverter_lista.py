@@ -11,7 +11,7 @@ def inverter_lista(lista):              # define a função que vai inverter a l
         lista[i] = lista[tamanho - i]   # faz a troca de posição entre os elementos da lista
         lista[tamanho - i] = aux        # reinsere na lista, em nova posição, o elemento armazenado temporariamente na variável aux
 # 4 + N valores em memória >> 4 + N  complexidade de espaço (memória)
-# 2 + 3 * limite >> 2 + 3 * (N/2) - complexixade de tempo (processamento)
+# 2 + 4 * limite >> 2 + 4 * (N/2) >> 2 + 2N - complexidade de tempo (processamento)
 
 
 ## Outro algoritmo para se inverter uma lista
