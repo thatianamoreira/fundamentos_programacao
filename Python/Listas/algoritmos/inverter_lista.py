@@ -16,12 +16,12 @@ def inverter_lista(lista):              # define a função que vai inverter a l
 
 ## Outro algoritmo para se inverter uma lista
 
-def inverter_lista2(lista):                    # define a função que vai inverter a lista
-    nova_lista = []                            # cria uma nova lista vazia, que será a lista invertida
-    tamanho = len(lista)                       # calcula o tamanho da lista e o armazena na variável tamanho
-    for i in range(tamanho):                   # percorre a lista
-        nova_lista.append(lista[tamanho - i])  # insere os elementos da lista em ordem inversa na nova lista
-    return nova_lista                          # retorna a nova lista
+def inverter_lista2(lista):                        # define a função que vai inverter a lista
+    nova_lista = []                                # cria uma nova lista vazia, que será a lista invertida
+    tamanho = len(lista)                           # calcula o tamanho da lista e o armazena na variável tamanho
+    for i in range(tamanho):                       # percorre a lista
+        nova_lista.append(lista[tamanho - i - 1])  # insere os elementos da lista em ordem inversa na nova lista
+    return nova_lista                              # retorna a nova lista
 # complexidade de espaço: 3 + 2 * N
 # complexidade de tempo: 2 + N
 
